@@ -43,8 +43,7 @@ public class Calculate {
 		double CIE = Double.parseDouble(countrysItemExports);
 		double CTE = Double.parseDouble(countrysTotalExports);
 		double GIE = Double.parseDouble(globalsItemExports);
-		double GTE = Double.parseDouble(globalTotalExports);
-
+		long GTE = Long.parseLong(globalTotalExports);
 		double calculateRCA = (CIE / CTE) / (GIE / GTE);
 		String result = tradeValue.format(calculateRCA);
 		return result;
