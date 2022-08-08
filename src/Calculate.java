@@ -17,7 +17,7 @@ public class Calculate {
 		return result;
 	}
 
-	// 무역특화지수 수출/수입특화품목 추출
+	// 무역특화지수 등급 분류
 	// -1 ~ 1
 	public int[] TSI_rating(String[] TSI) {
 		int[] TSIArray = new int[2];
@@ -37,7 +37,7 @@ public class Calculate {
 		return TSIArray;
 	}
 
-	// 현시비교우위지수
+	// 현시비교우위지수 계산
 	public String calculate_RCA(String countrysItemExports, String countrysTotalExports, String globalsItemExports, String globalTotalExports) {
 
 		double CIE = Double.parseDouble(countrysItemExports);
