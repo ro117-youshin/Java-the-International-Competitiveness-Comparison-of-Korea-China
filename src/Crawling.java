@@ -18,8 +18,8 @@ public class Crawling {
 	public static final String WEB_DRIVER_ID = "webdriver.chrome.driver"; // 드라이버 ID
 	public static final String WEB_DRIVER_PATH = "C:\\Users\\YOUSHIN KIM\\Desktop\\DataAnalysisCrawling\\chromedriver.exe"; // 드라이버
 																															// 경로
-	public static String ID = "httpksynet";
-	public static String passWD = "new1212!";
+	public static String ID = "ID";
+	public static String passWD = "PW";
 	public static ArrayList<String> arr = new ArrayList<String>();
 	public static String dataList = "";
 	public static int year = 2010;
@@ -174,7 +174,7 @@ public class Crawling {
 	}
 
 	static void make_CSV_raw(String data) { // CSV 생성
-		File csv = new File("C:\\Users\\YOUSHIN KIM\\Desktop\\DataAnalysisCrawling\\test.csv");
+		File csv = new File("File");
 		BufferedWriter bw = null;
 
 		try {

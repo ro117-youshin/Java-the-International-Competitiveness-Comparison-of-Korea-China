@@ -15,7 +15,7 @@ public class WriteToCSV {
 	Calculate cal = new Calculate();
 	
 	public void start() {
-		readCSV();
+		readCSV(); 
 	}
 	
 	public void readCSV() { // CSV 생성
