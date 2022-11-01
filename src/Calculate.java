@@ -38,7 +38,8 @@ public class Calculate {
 	}
 
 	// 현시비교우위지수 계산
-	public String calculate_RCA(String countrysItemExports, String countrysTotalExports, String globalsItemExports, String globalTotalExports) {
+	public String calculate_RCA(String countrysItemExports, String countrysTotalExports, 
+				    String globalsItemExports, String globalTotalExports) {
 
 		double CIE = Double.parseDouble(countrysItemExports);
 		double CTE = Double.parseDouble(countrysTotalExports);
